@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating water</title>
+</head>
+<body>
+    <canvas></canvas>
+
+    <script type="text/javaxcript">
+        var time;
+
+        const HEI = o.9;
+        const MAX = 100;
+        const canvas = document.getElementsByTagName("canvas")[0]
+        const ctx = canvas.getContext("2d");
+        canvas.width = canvas.height = 400;
+
+        animate();
+
+        function animate() {
+            ctx.globalCompositeOpretation = "source-over";
+        }
+    </script>
+</body>
+</html>
